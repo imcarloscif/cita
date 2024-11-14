@@ -109,7 +109,9 @@ body{
 }
     
     .testo{
-        font-size: 12pt;
+        font-size: 16pt;
+        padding-left: 8%;
+        padding-right: 8%;
     }
     
     .loghi{
