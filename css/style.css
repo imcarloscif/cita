@@ -1,0 +1,120 @@
+@font-face{
+    font-family: CothamSans;
+    src: url(font/CothamSans.otf)
+}
+
+body{
+
+    width: 100%;
+    background-color: black;
+   
+    
+}
+
+.spazio{
+    height: 100px;
+}
+
+.generale{
+        background-image: url(sfondo.png);
+    background-size: 70%;
+    background-position: top;
+    background-repeat: no-repeat;
+    padding-top: 200px;
+}
+
+.testa{
+    font-size: 48pt;
+       align-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+.sottotitolo{
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.mappa{
+   padding-top: 5%;
+    width: 767px;
+    height: 635px; 
+}
+
+.container{
+ 
+        align-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5%;
+}
+
+.general{
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.testo{
+    font-family: cothamsans;
+    line-height: 1.4em;
+    color: #F0F0F0;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 16pt;
+    text-align: justify;
+}
+
+.foot{
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2%;
+}
+.loghi{
+    width: 150px;
+    padding: 5%;
+}
+
+.immagine{
+    width: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+    
+    
+    
+    .mappa{
+        max-width: 500px;
+        max-height: 414px;
+}
+    
+    .testo{
+        font-size: 12pt;
+    }
+    
+    .loghi{
+        width: 70px;
+        padding:2%;
+    }
+    
+}
