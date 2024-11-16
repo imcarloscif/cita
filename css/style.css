@@ -44,7 +44,7 @@ body{
 
 
 .mappa{
-   padding-top: 5%;
+
     width: 767px;
     height: 635px; 
 }
@@ -78,7 +78,7 @@ body{
     align-items: center;
     padding-left: 15%;
     padding-right: 15%;
-    font-size: 16pt;
+    font-size: 18pt;
     text-align: justify;
 }
 
@@ -99,24 +99,24 @@ body{
     width: 100%;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen  {
     
-    
+    .generale{
+        background-size: 100%;
+    }
     
     .mappa{
-        max-width: 500px;
-        max-height: 414px;
+       width: 100%;
+        height: auto;
 }
     
     .testo{
-        font-size: 16pt;
-        padding-left: 8%;
-        padding-right: 8%;
+        font-size: 18pt;
+        padding-left: 5%;
+        padding-right: 5%;
     }
     
     .loghi{
-        width: 70px;
+        width: 25%;
         padding:2%;
     }
-    
-}
