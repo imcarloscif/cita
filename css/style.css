@@ -45,8 +45,8 @@ body{
 
 .mappa{
 
-    width: 767px;
-    height: 635px; 
+    width: 731px;
+    height: 642p; 
 }
 
 .container{
@@ -97,6 +97,53 @@ body{
 
 .immagine{
     width: 100%;
+    padding-bottom: 2%;
+}
+
+.titolo{
+    font-size: 36pt;
+    color: #f0f0f0;
+    Font-family: cothamsans;
+    padding-left: 2%;
+}
+
+.scheda{
+    font-size: 24pt;
+    padding-left: 15%;
+    color: lightgray;
+    font-family: cothamsans;
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+
+.location{
+    font-size: 24pt;
+    padding-left: 15%;
+    color: lightgray;
+    font-family: cothamsans;
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+
+a:link{
+    text-decoration: none;
+    color: lightgray;
+    
+}
+
+a:visited{
+    text-decoration: none;
+    color: lightgray;
+}
+
+a:hover{
+    text-decoration: none;
+    color: red;
+}
+
+.tit{
+    font-size: 36pt;
+    color: white;
 }
 
 @media only screen  {
